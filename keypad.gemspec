@@ -13,7 +13,11 @@ Gem::Specification.new do |s|
   s.licenses = "MIT"
   s.summary = "Easy OmniAuth Authentication with Ruby on Rails"
 
+  s.add_dependency "omniauth"
+  s.add_dependency "omniauth-oauth2"
+  s.add_dependency "rails"
   s.add_development_dependency "bundler"
+  s.add_development_dependency "pry"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
 end
